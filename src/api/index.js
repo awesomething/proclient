@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://classvisa.adaptable.app/posts' });
+const API = axios.create({ baseURL: 'https://classvisa.adaptable.app/' });
 //"proxy": "https://memories-project-part4.herokuapp.com/
 
 API.interceptors.request.use((req) => {
