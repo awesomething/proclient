@@ -30,7 +30,6 @@
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "deploy": "vercel --prod",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
